@@ -1,0 +1,124 @@
+========================================
+      SECURITY LOG ANALYSIS REPORT
+========================================
+
+Successful SSH logins : 226
+Failed SSH logins     : 713
+Sudo executions       : 186
+
+Top source IPs
+
+24.151.103.17   : 204 events
+85.245.107.41   : 185 events
+34.204.227.175  : 43 events
+49.4.143.105    : 40 events
+201.178.81.113  : 32 events
+
+Potential brute-force sources
+
+[HIGH] 85.245.107.41   : 11 failed attempts
+[HIGH] 181.25.206.27   : 12 failed attempts
+[HIGH] 24.151.103.17   : 157 failed attempts
+[LOW] 218.60.136.106  : 2 failed attempts
+[LOW] 106.57.58.19    : 2 failed attempts
+[LOW] 181.23.168.176  : 2 failed attempts
+[LOW] 151.241.67.217  : 2 failed attempts
+[MEDIUM] 181.25.201.155  : 8 failed attempts
+[LOW] 111.40.168.90   : 2 failed attempts
+[MEDIUM] 122.189.198.238 : 6 failed attempts
+[MEDIUM] 60.187.118.40   : 6 failed attempts
+[LOW] 122.191.89.89   : 2 failed attempts
+[MEDIUM] 42.184.142.151  : 6 failed attempts
+[MEDIUM] 82.64.2.59      : 6 failed attempts
+[MEDIUM] 114.32.100.101  : 6 failed attempts
+[LOW] 122.244.28.82   : 2 failed attempts
+[MEDIUM] 123.153.146.183 : 6 failed attempts
+[HIGH] 181.26.186.35   : 27 failed attempts
+[MEDIUM] 183.152.79.79   : 6 failed attempts
+[MEDIUM] 1.30.211.144    : 6 failed attempts
+[LOW] 5.167.75.191    : 2 failed attempts
+[MEDIUM] 93.120.176.237  : 6 failed attempts
+[MEDIUM] 78.106.21.86    : 6 failed attempts
+[MEDIUM] 112.251.168.248 : 6 failed attempts
+[MEDIUM] 119.193.140.176 : 6 failed attempts
+[MEDIUM] 58.19.144.50    : 6 failed attempts
+[LOW] 122.112.235.133 : 2 failed attempts
+[LOW] 122.189.193.214 : 2 failed attempts
+[HIGH] 49.4.143.105    : 40 failed attempts
+[MEDIUM] 61.166.73.66    : 6 failed attempts
+[LOW] 122.191.88.115  : 2 failed attempts
+[LOW] 186.130.83.53   : 2 failed attempts
+[MEDIUM] 123.96.5.168    : 6 failed attempts
+[MEDIUM] 111.40.30.206   : 6 failed attempts
+[LOW] 188.18.252.218  : 2 failed attempts
+[MEDIUM] 125.107.136.165 : 6 failed attempts
+[LOW] 190.107.182.33  : 2 failed attempts
+[LOW] 112.101.164.200 : 2 failed attempts
+[HIGH] 34.204.227.175  : 43 failed attempts
+[MEDIUM] 223.244.185.76  : 6 failed attempts
+[MEDIUM] 182.243.87.6    : 6 failed attempts
+[LOW] 91.243.236.123  : 2 failed attempts
+[LOW] 49.4.143.5      : 2 failed attempts
+[LOW] 222.89.76.13    : 2 failed attempts
+[LOW] 191.81.42.216   : 2 failed attempts
+[LOW] 183.93.215.158  : 2 failed attempts
+[MEDIUM] 122.190.143.18  : 6 failed attempts
+[MEDIUM] 61.183.117.250  : 6 failed attempts
+[LOW] 123.120.200.51  : 2 failed attempts
+[LOW] 73.231.4.205    : 2 failed attempts
+[MEDIUM] 110.78.174.75   : 6 failed attempts
+[LOW] 49.4.143.181    : 2 failed attempts
+[LOW] 186.128.141.232 : 2 failed attempts
+[MEDIUM] 46.89.129.145   : 6 failed attempts
+[LOW] 59.174.52.12    : 2 failed attempts
+[MEDIUM] 103.230.120.26  : 6 failed attempts
+[LOW] 122.189.197.241 : 2 failed attempts
+[LOW] 123.119.111.172 : 2 failed attempts
+[LOW] 123.164.142.82  : 2 failed attempts
+[MEDIUM] 175.162.187.121 : 6 failed attempts
+[LOW] 60.165.208.28   : 2 failed attempts
+[LOW] 218.91.34.237   : 2 failed attempts
+[MEDIUM] 49.84.87.84     : 6 failed attempts
+[LOW] 222.187.86.51   : 2 failed attempts
+[LOW] 77.231.252.103  : 4 failed attempts
+[LOW] 95.190.198.34   : 2 failed attempts
+[LOW] 94.154.25.149   : 2 failed attempts
+[MEDIUM] 183.146.159.20  : 6 failed attempts
+[LOW] 126.59.251.31   : 2 failed attempts
+[MEDIUM] 222.186.56.220  : 8 failed attempts
+[MEDIUM] 183.93.253.159  : 6 failed attempts
+[LOW] 219.82.145.223  : 2 failed attempts
+[HIGH] 122.163.61.218  : 30 failed attempts
+[HIGH] 14.54.210.101   : 12 failed attempts
+[MEDIUM] 105.101.221.33  : 6 failed attempts
+[LOW] 37.110.24.51    : 2 failed attempts
+[LOW] 116.255.253.137 : 2 failed attempts
+[MEDIUM] 181.25.189.115  : 6 failed attempts
+[MEDIUM] 178.219.248.139 : 6 failed attempts
+[MEDIUM] 177.38.145.209  : 6 failed attempts
+[LOW] 191.83.152.32   : 2 failed attempts
+[LOW] 170.79.155.119  : 2 failed attempts
+[MEDIUM] 46.30.160.83    : 6 failed attempts
+[LOW] 201.178.245.106 : 2 failed attempts
+[LOW] 181.211.173.182 : 2 failed attempts
+[LOW] 122.144.136.83  : 2 failed attempts
+[LOW] 1.189.205.173   : 2 failed attempts
+[LOW] 181.23.26.185   : 2 failed attempts
+[LOW] 201.27.216.125  : 2 failed attempts
+[LOW] 179.208.151.103 : 2 failed attempts
+[LOW] 119.193.140.203 : 2 failed attempts
+[LOW] 182.243.85.75   : 2 failed attempts
+[LOW] 61.174.116.31   : 2 failed attempts
+[MEDIUM] 111.40.166.130  : 6 failed attempts
+[LOW] 186.129.147.223 : 2 failed attempts
+[LOW] 37.78.105.176   : 2 failed attempts
+[LOW] 58.100.135.31   : 2 failed attempts
+[MEDIUM] 221.194.44.190  : 6 failed attempts
+[LOW] 178.161.33.80   : 2 failed attempts
+[MEDIUM] 179.38.76.250   : 6 failed attempts
+[LOW] 186.47.222.98   : 2 failed attempts
+[HIGH] 201.178.81.113  : 32 failed attempts
+[LOW] 68.182.39.76    : 2 failed attempts
+[LOW] 122.5.240.60    : 2 failed attempts
+
+Analysis completed successfully.
