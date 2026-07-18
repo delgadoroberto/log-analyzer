@@ -161,6 +161,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 **Roberto Delgado**
 
-Senior Cybersecurity Consultant
-
-Cybersecurity | Vulnerability Management | Cloud Security | DevSecOps | Security Engineering
+Cybersecurity Engineer
