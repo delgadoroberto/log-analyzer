@@ -156,9 +156,3 @@ No external libraries are required.
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Author
-
-**Roberto Delgado**
-
-Cybersecurity Engineer
